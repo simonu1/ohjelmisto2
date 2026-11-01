@@ -3,13 +3,14 @@ body {
     padding-right: 30px;
     background-color: rgb(224, 222, 219);
     margin: 0px;
+    font-family: sans-serif;
 }
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
-    background-color: rgb(171, 119, 227);
+    background-color: rgb(72, 137, 211);
 
 }
 
@@ -21,6 +22,12 @@ ul {
 
 ul li {
     margin: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
 
 }
 
