@@ -19,5 +19,5 @@
           break;
       }
 
-      document.write("<p>" + studentName + ", you are " + house + ".</p>");
+      document.querySelector("#target").innerHTML = "studentName + ", " you are " + house + ".";
 

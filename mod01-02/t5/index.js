@@ -18,8 +18,8 @@
       }
       //result display
       if (isLeapyear) {
-        document.write("<p>" + year + " is a leapyear.</p>");
+      document.querySelector("#target").innerHTML = year + " is a leapyear.";
       } else {
-        document.write("<p>" + year + " is not a leapyear.</p>");
+        document.querySelector("#target").innerHTML = year + " is not a leapyear.";
       }
 

@@ -4,16 +4,13 @@
         const number = parseFloat(prompt("enter a number"));
 
         if (number < 0) {
-          document.write(
-            "<p>The square root of a negative number is not defined.</p>",
-          );
+          document.querySelector("#target").innerHTML = "The square root of a negative number is not defined.";
         } else {
           const squareroot = Math.sqrt(number);
-          document.write(
-            "<p>number " + number + " squareroot is " + squareroot + "<p/>",
-          );
+          document.querySelector("#target").innerHTML = "number " + number + " squareroot is " + squareroot + "";
+          
         }
       } else {
-        document.write("<p> squareroot in not calculated.<p/>");
+        document.querySelector("#target").innerHTML =  "squareroot in not calculated.";
       }
 

@@ -8,8 +8,8 @@
       const average = sum / 3;
 
       //results
-      document.write("<p>sum " + sum + "</p>");
-      document.write("<p>product " + product + "</p>");
-      document.write("<p>Average: " + average + "</p>");
+      document.querySelector("#target").innerHTML = "<p>sum " + sum + "</p>";
+document.querySelector("#target").innerHTML += "<p>product " + product + "</p>";
+document.querySelector("#target").innerHTML += "<p>Average: " + average + "</p>";
 
-      console.log(average)
+      
